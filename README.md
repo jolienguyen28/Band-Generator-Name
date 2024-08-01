@@ -7,11 +7,11 @@ Modular code structure with EJS partials
 Random band name generation
 
 ## Directory Structure
-public/styles: Contains the main CSS file for styling
-views/partials: Includes EJS partials for the header, footer, and solution sections
-views: Main EJS templates
-index.js: Server setup and routing
-solution.js: Logic for generating band names
+- public/styles: Contains the main CSS file for styling
+- views/partials: Includes EJS partials for the header, footer, and solution sections
+- views: Main EJS templates
+- index.js: Server setup and routing
+- solution.js: Logic for generating band names
 
 ## How to run
 - Open terminal
