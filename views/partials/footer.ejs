@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    footer {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Adjust height as needed */
+    }
+</style>
+
+</head>
+
+<footer>
+  <!-- Step 4 - Add a dynamic year to the footer using JS. -->
+  <% const d = new Date() %>
+  <% let year = d.getFullYear() %>
+  <p>Copyright © <%= year %> </p>
+</footer>
+</body>
+
+</html>
