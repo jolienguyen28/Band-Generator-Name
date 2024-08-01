@@ -11,7 +11,7 @@ Random band name generation
 - views/partials: Includes EJS partials for the header, footer, and solution sections
 - views: Main EJS templates
 - index.js: Server setup and routing
-- solution.js: Logic for generating band names
+
 
 ## How to run
 - Open terminal
